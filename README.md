@@ -35,8 +35,8 @@ Classifying and segmenting brain tumors in MRI slices, after finding and removin
 The data is not stored in this repository; the notebooks download it with `kagglehub`.
 
 <p align="center">
-  <img src="assets/seg_samples.png" width="85%" alt="Training slices with ground-truth tumor outline">
-  <br><sub>Training slices with the ground-truth tumor outline (green).</sub>
+  <img src="assets/dataset_samples.png" width="70%" alt="Four training images per class">
+  <br><sub>Four random training images per class.</sub>
 </p>
 
 ## Notebooks
