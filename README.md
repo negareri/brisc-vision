@@ -10,8 +10,8 @@ Classifying and segmenting brain tumors in MRI slices, after finding and removin
 ![Ultralytics](https://img.shields.io/badge/Ultralytics_YOLO11-111F68)
 ![Dataset](https://img.shields.io/badge/Dataset-BRISC_2025-20BEFF?logo=kaggle&logoColor=white)
 
-[![Classification in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1LVTJ_JteCDigy8Z38a2vwgshPN6IcHuZ?usp=sharing)
-[![Segmentation in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1tNvPHqEKgHVb7ExRKhUHL0E4EoiLdgwE?usp=sharing)
+[![Classification in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/negareri/brisc-vision/blob/main/01_Tumor_Classification.ipynb)
+[![Segmentation in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/negareri/brisc-vision/blob/main/02_Tumor_Segmentation.ipynb)
 
 </div>
 
@@ -43,8 +43,8 @@ The data is not stored in this repository; the notebooks download it with `kaggl
 
 | Notebook | Task | Models | Open |
 |---|---|---|---|
-| `01_classification.ipynb` | 4-class classification | Custom CNN, ResNet18 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1LVTJ_JteCDigy8Z38a2vwgshPN6IcHuZ?usp=sharing) |
-| `02_segmentation.ipynb` | binary tumor segmentation | U-Net, YOLO11n-seg | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1tNvPHqEKgHVb7ExRKhUHL0E4EoiLdgwE?usp=sharing) |
+| `01_classification.ipynb` | 4-class classification | Custom CNN, ResNet18 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/negareri/brisc-vision/blob/main/01_Tumor_Classification.ipynb) |
+| `02_segmentation.ipynb` | binary tumor segmentation | U-Net, YOLO11n-seg | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/negareri/brisc-vision/blob/main/02_Tumor_Segmentation.ipynb) |
 
 Both follow the same recipe: EDA, duplicate audit, cleaned and group-aware train/validation split, two models, and evaluation on the **official test set**. Model selection uses validation data only.
 
@@ -145,8 +145,8 @@ Local setup: `pip install torch torchvision ultralytics kagglehub scikit-learn s
 
 ```
 .
-├── 01_classification.ipynb
-├── 02_segmentation.ipynb
+├── 01_Tumor_Classification.ipynb
+├── 02_Tumor_Segmentation.ipynb
 ├── assets/              # figures used in this README
 └── README.md
 ```
